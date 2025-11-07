@@ -14,15 +14,15 @@ for nota in notas:
         maior = maior + 1
 
 med = soma / len(notas)
-print(f'Média {med}')
-print(f'Notas maiores que 7.0: {maior}')
+print(med)
+print(maior)
 
 lista_A = [1,2,3,4,5]
 lista_B = [4,5,6,7,8]
 comuns = []
-for numero in lista_A:
-    if numero in lista_B:
-        comuns.append(numero)
+for itenA in lista_A:
+    if itenA in lista_B:
+        comuns.append(itenA)
 
 print(comuns)
 
